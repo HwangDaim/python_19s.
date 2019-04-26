@@ -1,0 +1,7 @@
+#create square
+import turtle
+t = turtle.Turtle()
+t.pencolor('red') *//색깔 지정시
+for i in [0, 1, 2, 3]:
+    t.forward(50)
+    t.right(90)
