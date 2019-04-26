@@ -1,4 +1,4 @@
-#create square
+#create square (0308)
 import turtle
 t = turtle.Turtle()
 t.pencolor('red') *//색깔 지정시
