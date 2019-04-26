@@ -1,0 +1,17 @@
+#guess number for 10 times
+print("숫자게임에 오신 것을 환영합니다.")
+number = 62
+
+
+for i in range(10) :
+    s = input("1 부터 100 숫자를 추측해보시오 : ")
+    guess = int(s)
+
+    if guess == number :
+        print("맞았습니다.")
+        break
+    else :
+         if guess > number :
+             print("틀렸습니다.입력한 수보다 작습니다.")
+         else :
+             print("틀렸습니다. 입력한 수보다 큽니다.")
